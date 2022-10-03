@@ -1,0 +1,31 @@
+.input{
+    background-color: rgba(255,255,255,0.1);
+    padding:12px;
+    border-radius: 8px;
+    font-size: 1em;
+    color: white;
+    outline: none;
+    border:2px solid rgba(0,0,0,0);
+    box-sizing: border-box;
+    transition: all 100ms ease-in;
+}
+.input:focus{
+    border:2px solid var(--light-color);
+    color:var(--light-color);
+}
+.input-error{
+    border:2px solid #dd7777;
+    color:#dd7777;
+}
+.input-label{
+    color: white;
+    padding-left: 4px;
+    font-size: 1em;
+    transition: all 100ms ease-in;
+}
+.input-label:focus-within{
+    color:var(--light-color);
+}
+::-webkit-calendar-picker-indicator{
+    filter:invert(0.9);
+}
